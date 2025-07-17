@@ -12,8 +12,8 @@ async def hello_fly():
         "message": "hmmm como eu gosto de fastaapi"
     }
 
-@app.get("/teste2")
+@app.get("/heathstatus")
 async def hello_fly():
     return {
-        "message": "i want to break free"
+        "status: healthy"
     }
