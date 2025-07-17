@@ -6,14 +6,15 @@ app = FastAPI()
 async def hello_fly():
     return 'hello from fly.io'
 
-@app.get("/teste1")
+@app.get("/deploy")
 async def hello_fly():
     return {
-        "message": "hmmm como eu gosto de fastaapi"
+        "message": "testando deploy no fly.io"
     }
 
-@app.get("/heathstatus")
+@app.get("/healthstatus")
 async def hello_fly():
     return {
         "status: healthy"
     }
+    
