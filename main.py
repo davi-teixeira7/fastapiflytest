@@ -9,7 +9,7 @@ async def hello_fly():
 @app.get("/teste1")
 async def hello_fly():
     return {
-        "message": "hello from fly.io teste2"
+        "message": "hmmm como eu gosto de fastaapi"
     }
 
 @app.get("/teste2")
